@@ -1,0 +1,8 @@
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/CMakeFiles/GravitySim.dir
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/CMakeFiles/edit_cache.dir
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/CMakeFiles/rebuild_cache.dir
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/libs/glm/CMakeFiles/edit_cache.dir
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/libs/glm/CMakeFiles/rebuild_cache.dir
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/src/CMakeFiles/mylib.dir
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/src/CMakeFiles/edit_cache.dir
+C:/Users/abdal/Documents/OpenGL/gravitySim/build/src/CMakeFiles/rebuild_cache.dir
