@@ -15,13 +15,15 @@ add_subdirectory(src)
 target_include_directories(${PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/libs
     ${CMAKE_SOURCE_DIR}/libs/glfw/include
-    ${CMAKE_SOURCE_DIR}/libs/glew/include
+    # ${CMAKE_SOURCE_DIR}/libs/glew/include
+    ${CMAKE_SOURCE_DIR}/libs/glad/include
 )
 
 # === Link directories ===
 target_link_directories(${PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/libs/glfw/lib      # where libglfw3.a lives
-    ${CMAKE_SOURCE_DIR}/libs/glew/lib      # where glew32s.lib lives
+    # ${CMAKE_SOURCE_DIR}/libs/glew/lib      # where libglew32.a lives
+    ${CMAKE_SOURCE_DIR}/libs/glad/lib      # where libglad.a lives
 )
 
 # === Preprocessor defines for static GLEW ===
@@ -32,7 +34,8 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     mylib
     glm::glm
     libglfw3.a
-    libglew32.a
+    # libglew32.a
+    libglad.a
     opengl32
     gdi32
     user32
